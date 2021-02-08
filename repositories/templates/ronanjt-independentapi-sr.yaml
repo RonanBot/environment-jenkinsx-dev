@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: RonanJT
+    provider: github
+    repository: IndependentAPI
+  name: ronanjt-independentapi
+spec:
+  description: Imported application for RonanJT/IndependentAPI
+  httpCloneURL: https://github.com/RonanJT/IndependentAPI.git
+  org: RonanJT
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: IndependentAPI
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/RonanJT/IndependentAPI.git
